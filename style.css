@@ -1,0 +1,211 @@
+* { /* обнуляем глобальные отступы */
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 10;
+  }
+body, html {
+	margin:0px;
+	padding:0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #777;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #FFF;
+}
+* html #maket {
+height: 100%;
+}
+#maket {
+width:800px;
+margin:0 auto;
+min-height: 100%;
+}
+/*Блоки*/
+#header{
+
+}
+#left{
+	width:200px;
+	float:left;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #999;
+	height: 100%;
+	padding-bottom: 150px;
+}
+#right{
+width:200px;
+background-color:#FFFF00;
+float:right;
+}
+#content{
+	margin-left:200px;
+}
+#content h1 {
+	padding-top: 80px;
+	padding-bottom: 40px;
+
+}
+#content p {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#fotoMy {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+	
+/*левая колонка*/
+#LogoLeft {
+	margin-right: 7px;
+}
+#left #slogan {
+	text-align: right;
+	font-size: 16px;
+	color: #333;
+	margin-right: 10px;
+	padding-top: 80px;
+}
+.menuLeft {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+}	
+	
+
+#footer{
+	clear:both;
+	height: 50px;
+	margin-top:-50px;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#rasporka {
+height: 50px;
+}
+/*контент*/
+.centerContent {
+	text-align: center;
+}
+
+
+
+
+
+
+/*Menu*/
+
+
+
+/*Меню тест*/
+
+ul { 
+  margin-left: 20px; /* отступ списка от левого края */
+  margin-top: 20px; /* отступ списка сверху */
+  width: 96px;  /* ширина списка */
+  height: 130px; /* высота списка */
+  }
+li {
+  text-align: center; /* выравнивание такста в списке по центру */
+  list-style-type: none; /* отключение стандартного стиля списка */
+  line-height: 25px; /* отступ сверху  */
+  }
+a { /* Общий вид покоющеясь ссылки */
+	font-size: 12px; /* размер текста */
+	color: #777; /* цвет текста */
+	font-family: Verdana, Geneva, sans-serif; /* шрифт текста */
+	text-decoration: none; /* отключение подчеркивания ссылки */
+	font-weight: bold; /* жирный текст */
+	display: block; /* фон блока */
+	width: 96px; /* ширина блока */
+	height: 26px; /* высота блока */
+	background-repeat: no-repeat;
+  }
+a:hover { /* Вид ссылки при наведении */
+	color: #F60;
+	background-repeat: no-repeat;
+	text-decoration: underline;
+  }
+a:active { /* Вид ссылки при нажатии */
+	background-repeat: no-repeat;
+	
+  }
+.activeMenu {
+	color: #F60;
+	background-color: #DDD;
+}
+
+/*Контакт*/
+#form1 {
+	margin:1em 0;
+	padding-top:10px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#form1 fieldset {
+margin:0;
+padding:0;
+border:none;
+float:left;
+display:inline;
+width:260px;
+margin-left:25px;
+}		
+#form1 p {margin:.5em 0;}
+#form1 label {display:block;}
+#form1 input, #form1 textarea {
+	width:252px;
+	border:1px solid #ddd;
+	-moz-border-radius:0.3em;
+	-webkit-border-radius:0.3em;
+	border-radius:0.3em;
+	background:fff;
+	padding:3px;
+}
+#form1 textarea {
+height:125px;
+overflow:auto;
+}
+#form1 p.submit {
+clear:both;
+background:url(../images/form/form_bottom.gif) no-repeat 0 100%;
+padding:0 25px 20px 25px;
+margin:0;
+text-align:right;
+}
+#form1 button {
+	width:150px;
+	height:37px;
+	line-height:37px;
+	border:none;
+	color:#333;
+	cursor:pointer;
+	text-align:center;
+	background-color: #DBDBDB;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+#padding {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.spracheAct {
+	color: #F60;
+	font-weight: bold;
+	text-decoration: underline;
+	width: 20px;
+	height: 20px;
+}
+.sprachePas
+{
+	width: 20px;
+	height: 20px;
