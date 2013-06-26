@@ -36,7 +36,7 @@ min-height: 100%;
 	border-right-style: solid;
 	border-right-color: #999;
 	height: 100%;
-	padding-bottom: 150px;
+	padding-bottom: 350px;
 }
 #right{
 width:200px;
@@ -69,10 +69,10 @@ float:right;
 	font-size: 16px;
 	color: #333;
 	margin-right: 10px;
-	padding-top: 80px;
+	padding-top: 240px;
 }
 .menuLeft {
-	padding-top: 100px;
+	padding-top: 230px;
 	padding-bottom: 50px;
 	padding-left: 10px;
 }	
